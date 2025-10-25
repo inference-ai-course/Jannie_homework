@@ -1,0 +1,53 @@
+{
+  "mcpServers": {
+    "brave_search": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "BSATJKFvzHaUYhkeoKjjkb5gLhbLBiv"
+      }
+    },
+      "github": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "***",  # token replaced by ***
+        "TZ": "America/Los_Angeles"
+      }
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+         "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\janni\\Desktop"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "notion": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env": {
+        "NOTION_TOKEN":"***"# token replaced by ***
+    }
+   }
+  }
+}
