@@ -1,4 +1,7 @@
 # Jannie_homework
 assignment repository
-Assignment submitted Oct. 24
-Advanced Assignment submitted Oct. 26
+submitted Oct. 26 2025
+one branch for each assignment
+created Oct 25 2025
+inference.ai
+
