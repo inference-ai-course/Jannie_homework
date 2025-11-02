@@ -1,0 +1,7 @@
+Title: Value Drifts: Tracing Value Alignment During LLM Post-Training
+Authors: Mehar Bhatia, Shravan Nayak, Gaurav Kamath, Marius Mosbach, Karolina Stańczak, Vered Shwartz, Siva Reddy
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26707
+
+=== Abstract ===
+

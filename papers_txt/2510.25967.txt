@@ -1,0 +1,7 @@
+Title: Semantic Label Drift in Cross-Cultural Translation
+Authors: Mohsinul Kabir, Tasnim Ahmed, Md Mezbaur Rahman, Polydoros Giannouris, Sophia Ananiadou
+Date: [Submitted on 29 Oct 2025]
+URL: https://arxiv.org/abs/2510.25967
+
+=== Abstract ===
+

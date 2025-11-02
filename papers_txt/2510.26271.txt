@@ -1,0 +1,7 @@
+Title: Distilling Multilingual Vision-Language Models: When Smaller Models Stay Multilingual
+Authors: Sukrit Sriratanawilai, Jhayahgrit Thongwat, Romrawin Chumpu, Patomporn Payoungkhamdee, Sarana Nutanong, Peerat Limkonchotiwat
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26271
+
+=== Abstract ===
+

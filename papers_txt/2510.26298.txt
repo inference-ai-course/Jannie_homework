@@ -1,0 +1,8 @@
+Title: Can Agent Conquer Web? Exploring the Frontiers of ChatGPT Atlas Agent in Web Games
+Authors: Jingran Zhang, Ning Li, Justin Cui
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26298
+
+=== Abstract ===
+
+Abstract:OpenAI's ChatGPT Atlas introduces new capabilities for web interaction, enabling the model to analyze webpages, process user intents, and execute cursor and keyboard inputs directly within the browser. While its capacity for information retrieval tasks has been demonstrated, its performance in dynamic, interactive environments remains less explored. In this study, we conduct an early evaluation of Atlas's web interaction capabilities using browser-based games as test scenarios, including Google's T-Rex Runner, Sudoku, Flappy Bird, and this http URL. We employ in-game performance scores as quantitative metrics to assess performance across different task types. Our results show that Atlas performs strongly in logical reasoning tasks like Sudoku, completing puzzles significantly faster than human baselines, but struggles substantially in real-time games requiring precise timing and motor control, often failing to progress beyond initial obstacles. These findings suggest that while Atlas demonstrates capable analytical processing, there remain notable limitations in dynamic web environments requiring real-time interaction. The website of our project can be found at this https URL.

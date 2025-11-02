@@ -1,0 +1,7 @@
+Title: Unravelling the Mechanisms of Manipulating Numbers in Language Models
+Authors: Michal Štefánik, Timothee Mickus, Marek Kadlčík, Bertram Højer, Michal Spiegel, Raúl Vázquez, Aman Sinha, Josef Kuchař, Philipp Mondorf
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26285
+
+=== Abstract ===
+

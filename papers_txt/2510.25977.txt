@@ -1,0 +1,7 @@
+Title: NeuronMM: High-Performance Matrix Multiplication for LLM Inference on AWS Trainium
+Authors: Dinghong Song (1), Jierui Xu (2), Weichu Yang (2), Pengfei Su (1), Dong Li (1) ((1) University of California, Merced, (2) University of Wisconsin, Madison)
+Date: [Submitted on 29 Oct 2025]
+URL: https://arxiv.org/abs/2510.25977
+
+=== Abstract ===
+
