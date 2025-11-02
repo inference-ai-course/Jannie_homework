@@ -1,0 +1,7 @@
+Title: Do LLMs Signal When They're Right? Evidence from Neuron Agreement
+Authors: Kang Chen, Yaoning Wang, Kai Xiong, Zhuoka Feng, Wenhe Sun, Haotian Chen, Yixin Cao
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26277
+
+=== Abstract ===
+

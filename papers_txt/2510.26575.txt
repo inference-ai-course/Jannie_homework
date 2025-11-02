@@ -1,0 +1,7 @@
+Title: InfoFlow: Reinforcing Search Agent Via Reward Density Optimization
+Authors: Kun Luo, Hongjin Qian, Zheng Liu, Ziyi Xia, Shitao Xiao, Siqi Bao, Jun Zhao, Kang Liu
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26575
+
+=== Abstract ===
+

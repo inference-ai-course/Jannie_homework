@@ -1,0 +1,7 @@
+Title: QCoder Benchmark: Bridging Language Generation and Quantum Hardware through Simulator-Based Feedback
+Authors: Taku Mikuriya, Tatsuya Ishigaki, Masayuki Kawarada, Shunya Minami, Tadashi Kadowaki, Yohichi Suzuki, Soshun Naito, Shunya Takata, Takumi Kato, Tamotsu Basseda, Reo Yamada, Hiroya Takamura
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26101
+
+=== Abstract ===
+

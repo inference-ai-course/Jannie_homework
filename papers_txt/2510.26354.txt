@@ -1,0 +1,9 @@
+Title: On the Role of Context for Discourse Relation Classification in Scientific Writing
+Authors: Stephen Wan, Wei Liu, Michael Strube
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26354
+
+=== Abstract ===
+
+Abstract:With the increasing use of generative Artificial Intelligence (AI) methods to support science workflows, we are interested in the use of discourse-level information to find supporting evidence for AI generated scientific claims. A first step towards this objective is to examine the task of inferring discourse structure in scientific writing.
+In this work, we present a preliminary investigation of pretrained language model (PLM) and Large Language Model (LLM) approaches for Discourse Relation Classification (DRC), focusing on scientific publications, an under-studied genre for this task. We examine how context can help with the DRC task, with our experiments showing that context, as defined by discourse structure, is generally helpful. We also present an analysis of which scientific discourse relation types might benefit most from context.

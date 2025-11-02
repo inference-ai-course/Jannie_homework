@@ -1,0 +1,7 @@
+Title: SymCode: A Neurosymbolic Approach to Mathematical Reasoning via Verifiable Code Generation
+Authors: Sina Bagheri Nezhad, Yao Li, Ameeta Agrawal
+Date: [Submitted on 29 Oct 2025]
+URL: https://arxiv.org/abs/2510.25975
+
+=== Abstract ===
+

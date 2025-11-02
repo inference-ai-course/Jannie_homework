@@ -1,0 +1,7 @@
+Title: Evaluating the Impact of LLM-Assisted Annotation in a Perspectivized Setting: the Case of FrameNet Annotation
+Authors: Frederico Belcavello, Ely Matos, Arthur Lorenzi, Lisandra Bonoto, Lívia Ruiz, Luiz Fernando Pereira, Victor Herbst, Yulla Navarro, Helen de Andrade Abreu, Lívia Dutra, Tiago Timponi Torrent
+Date: [Submitted on 29 Oct 2025]
+URL: https://arxiv.org/abs/2510.25904
+
+=== Abstract ===
+

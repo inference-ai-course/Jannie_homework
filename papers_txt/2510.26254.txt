@@ -1,0 +1,7 @@
+Title: Language Models Are Borrowing-Blind: A Multilingual Evaluation of Loanword Identification across 10 Languages
+Authors: Mérilin Sousa Silva, Sina Ahmadi
+Date: [Submitted on 30 Oct 2025]
+URL: https://arxiv.org/abs/2510.26254
+
+=== Abstract ===
+

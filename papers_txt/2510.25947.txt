@@ -1,0 +1,7 @@
+Title: Revisiting Multilingual Data Mixtures in Language Model Pretraining
+Authors: Negar Foroutan, Paul Teiletche, Ayush Kumar Tarun, Antoine Bosselut
+Date: [Submitted on 29 Oct 2025]
+URL: https://arxiv.org/abs/2510.25947
+
+=== Abstract ===
+
