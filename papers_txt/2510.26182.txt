@@ -1,7 +1,0 @@
-Title: MossNet: Mixture of State-Space Experts is a Multi-Head Attention
-Authors: Shikhar Tuli, James Seale Smith, Haris Jeelani, Chi-Heng Lin, Abhishek Patel, Vasili Ramanishka, Yen-Chang Hsu, Hongxia Jin
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26182
-
-=== Abstract ===
-

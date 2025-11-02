@@ -1,7 +1,0 @@
-Title: Pragmatic Theories Enhance Understanding of Implied Meanings in LLMs
-Authors: Takuma Sato, Seiya Kawano, Koichiro Yoshino
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26253
-
-=== Abstract ===
-

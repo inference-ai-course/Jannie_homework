@@ -1,7 +1,0 @@
-Title: The Geometry of Dialogue: Graphing Language Models to Reveal Synergistic Teams for Multi-Agent Collaboration
-Authors: Kotaro Furuya, Yuichi Kitagawa
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26352
-
-=== Abstract ===
-

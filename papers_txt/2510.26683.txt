@@ -1,7 +1,0 @@
-Title: Evontree: Ontology Rule-Guided Self-Evolution of Large Language Models
-Authors: Mingchen Tu, Zhiqiang Liu, Juan Li, Liangyurui Liu, Junjie Wang, Lei Liang, Wen Zhang
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26683
-
-=== Abstract ===
-

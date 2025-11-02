@@ -1,7 +1,0 @@
-Title: RECAP: Reproducing Copyrighted Data from LLMs Training with an Agentic Pipeline
-Authors: André V. Duarte, Xuying li, Bin Zeng, Arlindo L. Oliveira, Lei Li, Zhuo Li
-Date: [Submitted on 29 Oct 2025]
-URL: https://arxiv.org/abs/2510.25941
-
-=== Abstract ===
-

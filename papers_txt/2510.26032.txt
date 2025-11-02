@@ -1,7 +1,0 @@
-Title: Artificial Intelligence-Enabled Analysis of Radiology Reports: Epidemiology and Consequences of Incidental Thyroid Findings
-Authors: Felipe Larios, Mariana Borras-Osorio, Yuqi Wu, Ana Gabriela Claros, David Toro-Tobon, Esteban Cabezas, Ricardo Loor-Torres, Maria Mateo Chavez, Kerly Guevara Maldonado, Luis Vilatuna Andrango, Maria Lizarazo Jimenez, Ivan Mateo Alzamora, Misk Al Zahidy, Marcelo Montero, Ana Cristina Proano, Cristian Soto Jacome, Jungwei W. Fan, Oscar J. Ponce-Ponte, Megan E. Branda, Naykky Singh Ospina, Juan P. Brito
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26032
-
-=== Abstract ===
-

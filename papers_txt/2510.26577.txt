@@ -1,9 +1,0 @@
-Title: Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models
-Authors: Yinrong Hong, Zhiquan Tan, Kai Hu
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26577
-
-=== Abstract ===
-
-Abstract:Large Language Models (LLMs) face significant inference latency challenges stemming from their autoregressive design and large size. To address this, speculative decoding emerges as a solution, enabling the simultaneous generation and validation of multiple tokens. While recent approaches like EAGLE-2 and EAGLE-3 improve speculative decoding using dynamic tree structures, they often neglect the impact of crucial system variables such as GPU devices and batch sizes.
-Therefore, we introduce a new dynamic tree decoding approach called CAST that takes into account inference costs, including factors such as GPU configurations and batch sizes, to dynamically refine the tree structure. Through comprehensive experimentation across six diverse tasks and utilizing six distinct LLMs, our methodology demonstrates remarkable results, achieving speeds up to 5.2 times faster than conventional decoding methods. Moreover, it generally outperforms existing state-of-the-art techniques from 5% to 20%.

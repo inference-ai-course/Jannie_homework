@@ -1,7 +1,0 @@
-Title: Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning
-Authors: Yihe Deng, I-Hung Hsu, Jun Yan, Zifeng Wang, Rujun Han, Gufeng Zhang, Yanfei Chen, Wei Wang, Tomas Pfister, Chen-Yu Lee
-Date: [Submitted on 29 Oct 2025]
-URL: https://arxiv.org/abs/2510.25992
-
-=== Abstract ===
-

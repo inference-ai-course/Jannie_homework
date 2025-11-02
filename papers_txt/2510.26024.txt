@@ -1,7 +1,0 @@
-Title: Rethinking Cross-lingual Alignment: Balancing Transfer and Cultural Erasure in Multilingual LLMs
-Authors: HyoJung Han, Sweta Agrawal, Eleftheria Briakou
-Date: [Submitted on 29 Oct 2025]
-URL: https://arxiv.org/abs/2510.26024
-
-=== Abstract ===
-

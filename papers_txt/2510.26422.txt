@@ -1,7 +1,0 @@
-Title: OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education
-Authors: Min Zhang, Hao Chen, Hao Chen, Wenqi Zhang, Didi Zhu, Xin Lin, Bo Jiang, Aimin Zhou, Fei Wu, Kun Kuang
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26422
-
-=== Abstract ===
-

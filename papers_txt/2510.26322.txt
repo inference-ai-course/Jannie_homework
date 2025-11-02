@@ -1,7 +1,0 @@
-Title: SCRIBE: Structured Chain Reasoning for Interactive Behaviour Explanations using Tool Calling
-Authors: Fares Fawzi, Vinitra Swamy, Dominik Glandorf, Tanya Nazaretsky, Tanja Käser
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26322
-
-=== Abstract ===
-

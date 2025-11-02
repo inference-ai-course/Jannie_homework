@@ -1,7 +1,0 @@
-Title: The Structure of Relation Decoding Linear Operators in Large Language Models
-Authors: Miranda Anna Christ, Adrián Csiszárik, Gergely Becsó, Dániel Varga
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26543
-
-=== Abstract ===
-

@@ -1,7 +1,0 @@
-Title: RCScore: Quantifying Response Consistency in Large Language Models
-Authors: Dongjun Jang, Youngchae Ahn, Hyopil Shin
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26193
-
-=== Abstract ===
-

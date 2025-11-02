@@ -1,7 +1,0 @@
-Title: Encoder-Decoder or Decoder-Only? Revisiting Encoder-Decoder Large Language Model
-Authors: Biao Zhang, Yong Cheng, Siamak Shakeri, Xinyi Wang, Min Ma, Orhan Firat
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26622
-
-=== Abstract ===
-

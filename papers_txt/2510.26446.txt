@@ -1,7 +1,0 @@
-Title: 1+1>2: A Synergistic Sparse and Low-Rank Compression Method for Large Language Models
-Authors: Zeliang Zong, Kai Zhang, Zheyang Li, Wenming Tan, Ye Ren, Yiyan Zhai, Jilin Hu
-Date: [Submitted on 30 Oct 2025]
-URL: https://arxiv.org/abs/2510.26446
-
-=== Abstract ===
-
