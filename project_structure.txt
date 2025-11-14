@@ -1,0 +1,78 @@
+.
+├── SUBMISSION_README.md
+├── app
+│   ├── main.py
+│   └── main_reranking.py
+├── data
+│   ├── chunks.jsonl
+│   └── raw_pdfs
+│       ├── 1904.07695v1.pdf
+│       ├── 1904.07904v1.pdf
+│       ├── 1904.07982v1.pdf
+│       ├── 1904.08051v1.pdf
+│       ├── 1904.08075v1.pdf
+│       ├── 1904.08109v1.pdf
+│       ├── 1904.12213v1.pdf
+│       ├── 1904.12550v1.pdf
+│       ├── 1904.12848v6.pdf
+│       ├── 1905.00422v1.pdf
+│       ├── 1905.01958v1.pdf
+│       ├── 1905.01973v1.pdf
+│       ├── 1905.01984v1.pdf
+│       ├── 1905.01998v1.pdf
+│       ├── 1905.02019v1.pdf
+│       ├── 1905.02851v2.pdf
+│       ├── 1905.02869v1.pdf
+│       ├── 1905.02925v1.pdf
+│       ├── 1906.00579v3.pdf
+│       ├── 1906.00744v5.pdf
+│       ├── 1906.00790v2.pdf
+│       ├── 1906.00872v1.pdf
+│       ├── 1906.01040v3.pdf
+│       ├── 1906.01157v2.pdf
+│       ├── 1906.01161v2.pdf
+│       ├── 1906.01185v1.pdf
+│       ├── 1906.01195v1.pdf
+│       ├── 1906.01243v1.pdf
+│       ├── 1906.01268v1.pdf
+│       ├── 1906.01282v1.pdf
+│       ├── 1906.01359v1.pdf
+│       ├── 1906.01472v2.pdf
+│       ├── 1906.01573v1.pdf
+│       ├── 1906.01617v1.pdf
+│       ├── 1906.01726v1.pdf
+│       ├── 2005.13421v1.pdf
+│       ├── 2005.14627v1.pdf
+│       ├── 2006.00459v1.pdf
+│       ├── 2006.00518v1.pdf
+│       ├── 2006.00533v1.pdf
+│       ├── 2012.10055v2.pdf
+│       ├── 2012.10187v1.pdf
+│       ├── 2012.10226v1.pdf
+│       ├── 2012.13004v1.pdf
+│       ├── 2012.13190v2.pdf
+│       ├── 2012.13391v2.pdf
+│       ├── 2012.13872v1.pdf
+│       ├── 2012.13980v1.pdf
+│       ├── 2012.14005v1.pdf
+│       └── 2012.14312v1.pdf
+├── embeddings
+│   ├── faiss.index
+│   └── id2text.pkl
+├── notebooks
+│   ├── embedding.ipynb
+│   ├── exploration.ipynb
+│   └── query_index_demo.ipynb
+├── project_structure.txt
+├── requirements.txt
+├── research_assistant.html
+├── retrieval_validation_report.json
+└── scripts
+    ├── build_index.py
+    ├── compare_reranking.py
+    ├── download_arxiv.py
+    ├── extract_and_chunk.py
+    ├── faiss_with_reranking.py
+    └── implement_reranking.py
+
+7 directories, 69 files

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Research Paper Search</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 40px auto; padding: 20px; }
+        input[type="text"] { width: 400px; padding: 10px; font-size: 16px; }
+        button { padding: 10px 20px; font-size: 16px; margin-left: 5px; }
+        .result { border: 1px solid #ddd; margin: 10px 0; padding: 15px; }
+        .error { color: red; }
+        .success { color: green; }
+        .info { color: blue; }
+        .result-header { display: flex; justify-content: space-between; align-items: center; }
+        .score { background: #f0f0f0; padding: 2px 8px; border-radius: 4px; font-size: 14px; }
+        .buttons { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Research Paper Search</h1>
+    <input type="text" id="query" placeholder="Ask any question about AI research...">
+    <button onclick="search()">Search Papers</button>
+    <button onclick="rerankSearch()" id="rerankButton" style="display: none;">Rerank Results</button>
+    <div id="status"></div>
+    <div id="results"></div>
+
+    <script>
+        let currentResults = []; // Store current search results
+        
+        async function search() {
+            const query = document.getElementById('query').value;
+            if (!query) {
+                showStatus('Please enter a question!', 'error');
+                return;
+            }
+            
+            showStatus('Searching...', 'info');
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('rerankButton').style.display = 'none';
+            
+            try {
+                const response = await fetch(`http://localhost:8000/search?query=${encodeURIComponent(query)}&k=3`, {
+                    method: 'POST'
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                showStatus('Search completed!', 'success');
+                
+                // Store results for reranking
+                currentResults = data.results || [];
+                
+                let html = '<h2>Search Results:</h2>';
+                if (currentResults.length > 0) {
+                    currentResults.forEach((result, i) => {
+                        html += `<div class="result">
+                            <div class="result-header">
+                                <h3>Result ${i+1}</h3>
+                                <span class="score">Score: ${result.score.toFixed(4)}</span>
+                            </div>
+                            <p>${result.text}</p>
+                        </div>`;
+                    });
+                    // Show rerank button if we have results
+                    document.getElementById('rerankButton').style.display = 'inline-block';
+                } else {
+                    html = '<p>No results found.</p>';
+                }
+                document.getElementById('results').innerHTML = html;
+                
+            } catch (error) {
+                showStatus(`Error: ${error.message}`, 'error');
+                console.error('Search error:', error);
+            }
+        }
+        
+        async function rerankSearch() {
+            const query = document.getElementById('query').value;
+            if (!query) {
+                showStatus('Please enter a question first!', 'error');
+                return;
+            }
+            
+            if (currentResults.length === 0) {
+                showStatus('No results to rerank. Please search first.', 'error');
+                return;
+            }
+            
+            showStatus('Reranking results with cross-encoder...', 'info');
+            
+            try {
+                // Extract just the text from current results for reranking
+                const candidateTexts = currentResults.map(result => result.text);
+                
+                const response = await fetch('http://localhost:8000/rerank', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        candidates: candidateTexts
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Reranking API error: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                showStatus('Reranking completed!', 'success');
+                
+                let html = '<h2>Reranked Results (using cross-encoder):</h2>';
+                if (data.reranked_results && data.reranked_results.length > 0) {
+                    data.reranked_results.forEach((result, i) => {
+                        html += `<div class="result">
+                            <div class="result-header">
+                                <h3>Result ${i+1}</h3>
+                                <span class="score">Rerank Score: ${result.score.toFixed(4)}</span>
+                            </div>
+                            <p>${result.text}</p>
+                        </div>`;
+                    });
+                } else {
+                    html = '<p>No reranked results.</p>';
+                }
+                document.getElementById('results').innerHTML = html;
+                
+            } catch (error) {
+                showStatus(`Reranking error: ${error.message}`, 'error');
+                console.error('Reranking error:', error);
+            }
+        }
+        
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            statusEl.className = type;
+        }
+        
+        document.getElementById('query').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') search();
+        });
+    </script>
+</body>
+</html>

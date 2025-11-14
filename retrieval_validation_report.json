@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "total_queries_tested": 10,
+    "average_retrieval_time": 0.02312049865722656,
+    "high_relevance_results": 0,
+    "medium_relevance_results": 15,
+    "low_relevance_results": 15
+  },
+  "detailed_results": {
+    "transformer architecture in NLP": {
+      "retrieval_time": 0.15218234062194824,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 1.0728871822357178,
+          "relevance": "LOW",
+          "text_preview": "mappings is the zero- shot transformation of concepts that were missing in the training data. Our system showed a satisfactory performance therefore i..."
+        },
+        {
+          "rank": 2,
+          "distance": 1.0771512985229492,
+          "relevance": "LOW",
+          "text_preview": "22.91 Table 2: ST results on Augmented LibriSpeech test. KD denotes knowledge distillation. LibriSpeech Method greedy beam ensemble B\u00b4erard [10] Pipel..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0777121782302856,
+          "relevance": "LOW",
+          "text_preview": "reply from the alternative replies of the given corpus according to the matching principle. In [29], dual encoder model was proposed by Lowe et al. fo..."
+        }
+      ]
+    },
+    "machine learning models for text": {
+      "retrieval_time": 0.006905317306518555,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.837464451789856,
+          "relevance": "MEDIUM",
+          "text_preview": "and J. Jiang (2017). A compare-aggregate model for matching text sequences. In 5th Inter- national Conference on Learning Representations, ICLR 2017, ..."
+        },
+        {
+          "rank": 2,
+          "distance": 0.8537485599517822,
+          "relevance": "MEDIUM",
+          "text_preview": "models (CTM), variational expectation maximization (VEM), and Gibbs sampling (Gibbs), by assessing their performance against their log-likelihood esti..."
+        },
+        {
+          "rank": 3,
+          "distance": 0.8643554449081421,
+          "relevance": "MEDIUM",
+          "text_preview": "the text content, but ignore their co-textual information. However, in reality, natural language is usually generated in a specific environment, such ..."
+        }
+      ]
+    },
+    "neural network training methods": {
+      "retrieval_time": 0.007411479949951172,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.9846347570419312,
+          "relevance": "MEDIUM",
+          "text_preview": "class) or if the branch node contains fewer than 10 observations. Note that the KD features used with the BDT classi\ufb01er was proposed in our previous w..."
+        },
+        {
+          "rank": 2,
+          "distance": 1.112490177154541,
+          "relevance": "LOW",
+          "text_preview": "sofa, chair, table, lamp, rif\ufb02e) and a uniformly random i.i.d. split of [90%, 5%, 5%] for train/test/val purposes. We \ufb01ne- tuned the network for 30 ep..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.1307945251464844,
+          "relevance": "LOW",
+          "text_preview": "removed all the non- alphabetic tokens. For both datasets, a vocabulary was built and maintained in experiments with all the tokens (including emotico..."
+        }
+      ]
+    },
+    "natural language processing techniques": {
+      "retrieval_time": 0.0077664852142333984,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 1.0149847269058228,
+          "relevance": "LOW",
+          "text_preview": "neural two-stage approach for rec- ognizing discontiguous entities. Proceedings of the 2019 Conference on Empirical Methods in Natu- ral Language Proc..."
+        },
+        {
+          "rank": 2,
+          "distance": 1.025631070137024,
+          "relevance": "LOW",
+          "text_preview": "learning techniques with feature engineering. We also build different neural network architectures which we explain below. 4.1 Feature Engineering wit..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0581138134002686,
+          "relevance": "LOW",
+          "text_preview": "are used by insurance companies and certain hospitals. Te e\ufb00orts to solve this problem range from the development of mapping diction- aries between co..."
+        }
+      ]
+    },
+    "deep learning research papers": {
+      "retrieval_time": 0.008748531341552734,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.9600126147270203,
+          "relevance": "MEDIUM",
+          "text_preview": "= P i Pi(1 \u2212Pi)m, we have Pr(A) \u2264(1 \u22121 k )m = exp(m log(1 \u22121 k )) \u2264exp(\u2212m k ) Hence when m = O( k \u03f5 ), we have Pr(A) = O(\u03f5) D Extended Related Work Se..."
+        },
+        {
+          "rank": 2,
+          "distance": 1.0694265365600586,
+          "relevance": "LOW",
+          "text_preview": "Zhang, and Jimmy Lin. Cross- domain modeling of sentence-level evidence for document retrieval. In EMNLP/IJCNLP, 2019. Nick Craswell, Bhaskar Mitra, E..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0743311643600464,
+          "relevance": "LOW",
+          "text_preview": "international con- ference on knowledge discovery and data mining, pages 1135\u20131144. Karen Simonyan, Andrea Vedaldi, and Andrew Zisser- man. 2013. Deep..."
+        }
+      ]
+    },
+    "attention mechanism in AI": {
+      "retrieval_time": 0.007328033447265625,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.9650229215621948,
+          "relevance": "MEDIUM",
+          "text_preview": "shown as follows in Equation 3. \u20d7x\u2032 i = K k=1 \u03c3 X j\u2208Ni \u03b1k ijWk \u20d7xj ! (3) where \u2225represents concatenation, \u03c3 represents any non-linear function, \u03b1k ij ..."
+        },
+        {
+          "rank": 2,
+          "distance": 0.9947958588600159,
+          "relevance": "MEDIUM",
+          "text_preview": "its i < p < j < q or ei:j is intersected with ep:q. p < i < q < j pre i < j < p < q ei:j is preceding edge to ep:q. suc p < q < i < j ei:j is succeedi..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0199960470199585,
+          "relevance": "LOW",
+          "text_preview": "test sets. Hits@N values are in percentage. The best score is in bold and second best score is underlined. signi\ufb01cantly outperforms state-of-the-art r..."
+        }
+      ]
+    },
+    "language model fine-tuning": {
+      "retrieval_time": 0.009344339370727539,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.91937655210495,
+          "relevance": "MEDIUM",
+          "text_preview": "with their results. Website: https://axa-rev-research. github.io/quackie/ Acknowledgements We would like to thank Travis McGuire (hugging- face ID TWM..."
+        },
+        {
+          "rank": 2,
+          "distance": 0.9442259073257446,
+          "relevance": "MEDIUM",
+          "text_preview": "Y. Wu, R. Prabhavalkar, P. Nguyen, Z. Chen, A. Kannan, R. J. Weiss, K. Rao, K. Gonina et al., \u201cState- of-the-art speech recognition with sequence-to-s..."
+        },
+        {
+          "rank": 3,
+          "distance": 0.954719603061676,
+          "relevance": "MEDIUM",
+          "text_preview": "adds an inductive struc- ture bias to learning and inference which we will see can aid its generalization capability. Thresholding. For both the unstr..."
+        }
+      ]
+    },
+    "computer vision and NLP integration": {
+      "retrieval_time": 0.007795810699462891,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.8979417085647583,
+          "relevance": "MEDIUM",
+          "text_preview": "mappings is the zero- shot transformation of concepts that were missing in the training data. Our system showed a satisfactory performance therefore i..."
+        },
+        {
+          "rank": 2,
+          "distance": 0.9861998558044434,
+          "relevance": "MEDIUM",
+          "text_preview": "et al. [21] introduced an automatic natural language description generation system based on image, which used a lot of statistical information of text..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0076221227645874,
+          "relevance": "LOW",
+          "text_preview": "Computer Vision and Pattern Recognition, pages 8896\u20138905, 2018. [36] Lars Maal\u00f8e, Casper Kaae S\u00f8nderby, S\u00f8ren Kaae S\u00f8nderby, and Ole Winther. Auxiliar..."
+        }
+      ]
+    },
+    "reinforcement learning for language": {
+      "retrieval_time": 0.010432004928588867,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.7837955951690674,
+          "relevance": "MEDIUM",
+          "text_preview": "trained models to imitate each role. 8 Results show that exploiting the compositional structure of natural language improves generalization for both t..."
+        },
+        {
+          "rank": 2,
+          "distance": 0.9951572418212891,
+          "relevance": "MEDIUM",
+          "text_preview": "language learning, visualization, and interfaces, 2014, pp. 63\u201370...."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0569367408752441,
+          "relevance": "LOW",
+          "text_preview": "then vp = apply tense/person of aux to vp(lemma) else vp = aux vp(lemma) end if s = subj vp rithm 1 that uses dependency parsing to turn Why- question..."
+        }
+      ]
+    },
+    "unsupervised learning approaches": {
+      "retrieval_time": 0.013290643692016602,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.9648993015289307,
+          "relevance": "MEDIUM",
+          "text_preview": "fully supervised performance, which uses 10x more labeled examples. This shows the huge potential of state-of-the-art data augmentations under the con..."
+        },
+        {
+          "rank": 2,
+          "distance": 1.0178821086883545,
+          "relevance": "LOW",
+          "text_preview": "this research. To the best of our knowledge, nobody will be put at disadvantage from this research. Our method does not leverage biases in the data. O..."
+        },
+        {
+          "rank": 3,
+          "distance": 1.0527125597000122,
+          "relevance": "LOW",
+          "text_preview": "Unsupervised Data Augmentation for Consistency Training Qizhe Xie1,2, Zihang Dai1,2, Eduard Hovy2, Minh-Thang Luong1, Quoc V. Le1 1 Google Research, B..."
+        }
+      ]
+    }
+  }
+}
